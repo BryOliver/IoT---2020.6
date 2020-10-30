@@ -1,13 +1,13 @@
 function acender(id){
     var img = document.getElementById(id);
     img["src"] = "img/Lon.png"
-    sendToServer(1000)
+    sendToServer(100)
 }
 
 function apagar(id){
     var img = document.getElementById(id);
     img["src"] = "img/Loff.png"
-    sendToServer(200)
+    sendToServer(10)
 }
 
 function sendToServer(state){
